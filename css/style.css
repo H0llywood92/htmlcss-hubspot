@@ -98,7 +98,7 @@ header .logo img {
 }
 .cyan-row {
     position: absolute;
-    bottom: -241px;
+    bottom: 1px;
     left: 0;
     background-color: #adebe4;
     height: 77px;
