@@ -10,6 +10,7 @@ img {
 /* COMMON */
 body {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
 .clearfix::after {
     content:"";
@@ -24,17 +25,24 @@ ul {
     list-style-type: none;
 }
 .btn {
+    display: inline-block;
     border: 1px solid darkorange;
     padding: 11px 7px;
     background-color: darkorange;
     border-radius: 5px;
     color: white;
+    text-decoration: none;
 }
 a {
     color: black;
 }
 .chevron {
     padding-left: 5px;
+}
+.text {
+    color: #33475b;
+    font-size: 14px;
+   
 }
 
 /* two col */
@@ -57,11 +65,10 @@ a {
 header .menu li {
     display: inline-block;
     padding-left: 20px;
-    font-weight: 500;
+    
 }
 header .menu li a {
     text-decoration: none;
-    font-weight: 500;
 }
 .login {
     border: 1px solid darkorange;
@@ -106,3 +113,19 @@ header .logo img {
     border-top: 3px solid #354a5d;
     border-bottom: 3px solid #354a5d;
 }
+/* Text Banner */
+.banner-text {
+    width: 40%;
+    padding-top: 90px;
+}
+.banner .banner-text h1 {
+    font-size: 50px;
+}
+.banner .banner-text .text {
+    padding: 25px 0;
+}
+.banner-text .text:last-child {
+    font-size: 12px;
+}
+
+/* MAIN */
