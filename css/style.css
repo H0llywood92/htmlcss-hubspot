@@ -94,6 +94,7 @@ header .logo img {
     background-repeat: no-repeat;
     background-size: contain;
     height: 650px;
+    position: relative;
 }
 .cyan-row {
     position: absolute;
