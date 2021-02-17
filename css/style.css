@@ -86,3 +86,22 @@ header .logo img {
 .nav-bottom .menu-right li {
     padding-top: 12px;
 }
+/* Banner */
+.banner {
+    background-color: #fef6ef;
+    background-image: url("../img/jumbotron.png");
+    background-position: 100% 0%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 650px;
+}
+.cyan-row {
+    position: absolute;
+    bottom: -241px;
+    left: 0;
+    background-color: #adebe4;
+    height: 77px;
+    width: 30%;
+    border-top: 3px solid #354a5d;
+    border-bottom: 3px solid #354a5d;
+}
