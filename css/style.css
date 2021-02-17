@@ -237,3 +237,21 @@ header .logo img {
 .content-box li.text{
     padding: 30px 20px 30px 0;
 }
+
+/* Content Three Col */
+.main-info .container-big{
+    width: 100%;
+    margin: 50px 0;
+}
+
+/* test */
+.main-info .col-left,
+.main-info .col-middle,
+.main-info .col-right {
+    height: 200px;
+    background-color: red;
+}
+.main-info .col-middle {
+    margin: 0 5%;
+}
+/* fine test */
