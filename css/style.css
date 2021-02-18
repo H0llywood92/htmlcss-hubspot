@@ -438,3 +438,12 @@ header .logo img {
 .main-content-bottom .container-big .col-left p.text:last-child {
     font-size: 12px;
 }
+
+/* FOOTER */
+
+footer {
+    background-color: #32495b;
+
+    /* test */
+    height: 500px;
+}
