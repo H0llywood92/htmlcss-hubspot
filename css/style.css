@@ -121,7 +121,7 @@ a:hover {
 }
 
 /* HEADER */
-.wrapper {
+.nav-top {
     background-color: #e6e6e6;
     border-bottom: 1px solid black;
     padding: 25px 0;
@@ -164,7 +164,7 @@ header .menu li a {
 }
 
 .search-font {
-    color: cyan;
+    color: darkorange;
 }
 
 /* Nav Bottom */
@@ -391,7 +391,7 @@ header .logo img {
 }
 
 .main-content-middle .grid-bottom {
-    padding-bottom: 50px;
+    padding-bottom: 60px;
 }
 
 .grid-bottom .col-left,
