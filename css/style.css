@@ -170,12 +170,13 @@ header .logo img {
     position: relative;
 }
 
-.cyan-row {
+.banner::before {
+    content: "";
     position: absolute;
     bottom: 1px;
     left: 0;
     background-color: #adebe4;
-    height: 77px;
+    height: 71px;
     width: 30%;
     border-top: 3px solid #354a5d;
     border-bottom: 3px solid #354a5d;
