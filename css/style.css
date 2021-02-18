@@ -39,7 +39,7 @@ ul {
 .btn {
     display: inline-block;
     border: 1px solid darkorange;
-    padding: 11px 7px;
+    padding: 15px 20px;
     background-color: darkorange;
     border-radius: 5px;
     color: white;
@@ -78,6 +78,16 @@ a {
     margin-right: 7px;
 }
 
+.text-centered {
+    text-align: center;
+}
+
+.plus-entity {
+    font-size: 30px;
+    font-weight: 500;
+    vertical-align: middle;
+}
+
 /* two col */
 .two-col {
     float: left;
@@ -88,6 +98,12 @@ a {
 .three-col {
     float: left;
     width: 30%;
+}
+
+/* Four col */
+.four-col {
+    float:left;
+    width: 25%;
 }
 
 /* HEADER */
@@ -106,6 +122,7 @@ header .menu li {
 
 header .menu li a {
     text-decoration: none;
+    padding: 11px 7px;
 }
 
 .login {
@@ -199,6 +216,7 @@ header .logo img {
 /* Content Box */
 .content-box {
     background-color: white;
+    margin-bottom: 40px;
 }
 
 .content-box .box-img {
@@ -241,17 +259,115 @@ header .logo img {
 /* Content Three Col */
 .main-info .container-big{
     width: 100%;
-    margin: 50px 0;
+    padding: 10px 0;
 }
 
-/* test */
 .main-info .col-left,
 .main-info .col-middle,
 .main-info .col-right {
-    height: 200px;
-    background-color: red;
+    background-color: #ffffff;
+    padding: 25px;
 }
 .main-info .col-middle {
     margin: 0 5%;
 }
-/* fine test */
+
+.main-info .text-centered img {
+    height: 150px;
+    padding: 10px 0;
+}
+
+.main-info .text-centered p.text::after {
+    content: "__________________________________________________________";
+    display: block;
+    padding: 50px 0;
+}
+
+.main-info .text-centered h3 {
+    font-size: 23px;
+    padding: 25px 0;
+}
+
+.main-info .text-centered li.text {
+    text-align: left;
+    padding-left: 10px;
+}
+.main-info .text-centered ul {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.main-content-top {
+    padding: 50px 0;
+}
+/* Middle Section / Main Content Middle */
+
+.main-content-middle {
+    background-image: linear-gradient(to bottom left, #55d1c3, #00a4bb);
+    color: white;
+}
+
+.main-content-middle h2 {
+    font-size: 30px;
+    padding: 40px 0;
+}
+
+.main-content-middle p {
+    padding-bottom: 40px;
+}
+
+.statistic-grid .col-left,
+.statistic-grid .col-right {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid white;
+
+}
+
+.statistic-grid .col-middle-left{
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+
+}
+
+.statistic-grid .col-middle-right{
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.main-content-middle .container-big .container-small {
+    width: 90%;
+}
+
+.main-content-middle .statistic-grid img {
+    height: 40px;
+}
+
+.main-content-middle .statistic-grid .statistic-number {
+    font-size: 50px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+.main-content-middle p.text {
+    color: white;
+}
+
+.main-content-middle .grid-top {
+    padding-top: 50px;
+}
+
+.main-content-middle .grid-bottom {
+    padding-bottom: 50px;
+}
+
+.grid-bottom .col-left,
+.grid-bottom .col-middle-left,
+.grid-bottom .col-middle-right,
+.grid-bottom .col-right {
+    border-bottom: none;
+}
