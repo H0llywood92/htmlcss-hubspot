@@ -73,18 +73,9 @@ a:hover {
     font-weight: bold;
 }
 
-.done-entity {
-    height: 14px;
-    width: 14px;
-    border: 1px solid darkorange;
-    background-color: darkorange;
-    border-radius: 50%;
-    display: inline-block;
-    line-height: 14px;
-    text-align: center;
-    color: white;
-    font-size: 14px;
-    margin-right: 7px;
+.check {
+    color: darkorange;
+    margin-right: 10px;
 }
 
 .text-centered {
