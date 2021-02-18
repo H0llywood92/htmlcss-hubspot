@@ -88,6 +88,11 @@ a {
     vertical-align: middle;
 }
 
+.statistic-number {
+    font-size: 50px;
+    font-weight: 700;
+}
+
 /* two col */
 .two-col {
     float: left;
@@ -301,7 +306,7 @@ header .logo img {
     padding: 50px 0;
 }
 /* Middle Section / Main Content Middle */
-
+/* Top Part of Section */ 
 .main-content-middle {
     background-image: linear-gradient(to bottom left, #55d1c3, #00a4bb);
     color: white;
@@ -315,6 +320,7 @@ header .logo img {
 .main-content-middle p {
     padding-bottom: 40px;
 }
+/* Bottom Part of Section */ 
 
 .statistic-grid .col-left,
 .statistic-grid .col-right {
@@ -370,4 +376,65 @@ header .logo img {
 .grid-bottom .col-middle-right,
 .grid-bottom .col-right {
     border-bottom: none;
+}
+
+/* Main Content Bottom */
+/* Container Small - Top Part of Section */
+.main-content-bottom {
+    padding: 40px 0;
+}
+
+.main-content-bottom .container-small .col-left {
+    width: 30%;
+    padding-left: 5%;
+}
+
+.main-content-bottom .container-small .col-right {
+    width: 70%;
+    padding-left: 60px;
+}
+
+.main-content-bottom .container-small .col-right ul li {
+    display: inline;
+    padding-right: 30px;
+    vertical-align: middle;
+}
+
+.main-content-bottom .container-small .col-right ul img {
+    width: 18%;
+}
+
+.main-content-bottom .container-small .col-left .statistic-number {
+    margin-bottom: 25px;
+}
+
+.main-content-bottom .container-small .col-left li.text {
+    padding: 6px 0;
+}
+
+/* Container Big - Bottom Part of Section */
+.main-content-bottom .container-big {
+    padding: 60px 0;
+}
+
+.main-content-bottom .container-big .col-left{
+    width: 40%;
+    padding: 20px;
+}
+
+.main-content-bottom .container-big .col-right{
+    text-align: right;
+    width: 60%;
+}
+
+.main-content-bottom .container-big .col-right img {
+    height: 300px;
+    width: auto;
+}
+
+.main-content-bottom .container-big .col-left p.text{
+    padding: 30px 0;
+}
+.main-content-bottom .container-big .col-left p.text:last-child {
+    font-size: 12px;
 }
