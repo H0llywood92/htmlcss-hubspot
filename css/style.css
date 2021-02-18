@@ -46,8 +46,16 @@ ul {
     text-decoration: none;
 }
 
+.btn:hover {
+    text-shadow: 2px 2px 3px black;
+}
+
 a {
     color: #33475b;
+}
+
+a:hover {
+    text-shadow: 2px 2px 3px grey;
 }
 
 .chevron {
