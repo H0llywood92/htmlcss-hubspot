@@ -159,8 +159,16 @@ header .menu li a {
 }
 
 /* Nav Bottom */
+header .nav-bottom .menu-left {
+    width: 40%;
+}
+
+header .nav-bottom .menu-right{
+    width: 60%;
+}
+
 header .logo img {
-    width: 15%;
+    width: 18%;
 }
 
 .nav-bottom {
