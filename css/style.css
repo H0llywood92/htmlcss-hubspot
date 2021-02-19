@@ -238,40 +238,45 @@ header .logo img {
     margin-bottom: 40px;
 }
 
-.content-box .box-img {
+.main-content-top .content-box .box-img {
     height: 150px;
 }
 
-.content-box .box-img img {
+.main-content-top .content-box .box-img img {
     height: 100%;
     padding: 20px 0;
 }
 
-.content-box .col-left {
+.main-content-top .content-box .col-left {
     text-align: center;
     width: 30%;
     margin: 35px 0;
 }
 
-.content-box .col-right {
+.main-content-top .content-box .col-right {
     width: 70%;
     margin-top: 60px;
 }
 
-.content-box p.text {
+.main-content-top .content-box p.text {
     width: 60%;
     padding: 30px 0;
 }
-.content-box .uppercase-text::after {
-    content: "______________________________________________________________";
-    padding: 0 50px;
+
+.main-content-top .content-box .uppercase-text::after {
+    content: "";
+    display: inline-block;
+    border-bottom: 1px solid #354a5d;
+    text-align: right;
+    width: 45%;
+    margin: 0px 45px;
 }
 
-.content-box .col-right ul li {
+.main-content-top .content-box .col-right ul li {
     display: inline-block;
 }
 
-.content-box li.text{
+.main-content-top .content-box li.text{
     padding: 30px 20px 30px 0;
 }
 
@@ -297,9 +302,11 @@ header .logo img {
 }
 
 .main-info .text-centered p.text::after {
-    content: "__________________________________________________________";
-    display: block;
-    padding: 50px 0;
+    content: "";
+    display: inline-block;
+    width: 90%;
+    border-top: 1px solid #354a5d;
+    margin: 50px 0;
 }
 
 .main-info .text-centered h3 {
@@ -364,11 +371,12 @@ header .logo img {
 }
 
 .main-content-middle .statistic-grid img {
-    height: 40px;
+    width: fit-content;
+    height: 45px;
 }
 
 .main-content-middle .statistic-grid .statistic-number {
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 700;
     padding: 10px 0;
 }
@@ -395,7 +403,7 @@ header .logo img {
 /* Main Content Bottom */
 /* Container Small - Top Part of Section */
 .main-content-bottom {
-    padding: 40px 0;
+    padding: 60px 0;
 }
 
 .main-content-bottom .container-small .col-left {
@@ -406,6 +414,7 @@ header .logo img {
 .main-content-bottom .container-small .col-right {
     width: 70%;
     padding-left: 60px;
+    text-align: right;
 }
 
 .main-content-bottom .container-small .col-right ul li {
